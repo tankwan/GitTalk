@@ -103,7 +103,7 @@ class AddApp extends React.Component {
                     </Dialog>;
 
     return (
-      <IconButton tooltip='SVG Icon' onTouchTap={this.handleOpen} style={style}>
+      <IconButton tooltip='Add App' onTouchTap={this.handleOpen} style={style}>
         <SettingsIcon />
         {dialog}
       </IconButton>

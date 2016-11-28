@@ -27,6 +27,7 @@ class AddImage extends React.Component {
           <IconButton 
             iconStyle={ styles.mediumIcon }
             style={ styles.medium }
+            tooltip='Upload an image'
           >
             <UploadFileIcon />
           </IconButton>
